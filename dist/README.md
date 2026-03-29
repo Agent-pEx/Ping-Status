@@ -20,3 +20,13 @@ Ez a `dist/` mappába másolja az első talált `.rmskin` fájlt a megadott verz
 3. Böngésző: [új release a repóban](https://github.com/Agent-pEx/Ping-Status-by-A-pEx/releases/new) → válaszd a taget → töltsd fel **ugyanazt** a `dist/*.rmskin` fájlt csatolmányként.
 
 A **weboldal** „Latest release” gombja ide mutat: a felhasználók innen töltik a `.rmskin`-t, ha feltöltötted a Release-hez.
+
+**GitHub Release automatikusan (API):** hozz létre egy személyes tokent ([GitHub → Settings → Developer settings](https://github.com/settings/tokens)), majd:
+
+```powershell
+$env:GITHUB_TOKEN = 'ghp_…'   # vagy fine-grained token
+cd "…\Ping Status by A-pEx"
+.\scripts\publish-github-release.ps1 -Tag v1.0
+```
+
+A szkript létrehozza a Release-t a taghez (ha még nincs), és feltölti a `dist/Ping-Status-by-A-pEx-v1.0.rmskin` fájlt. Jogosultság: classic **repo**, vagy fine-grained: **Releases: Read and write** erre a repóra.
