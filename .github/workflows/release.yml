@@ -1,0 +1,30 @@
+# Creates a GitHub Release when you push a version tag (e.g. v1.0, v1.1.0).
+# Uploads every .rmskin under dist/. No personal token needed on your PC.
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: List dist assets
+        run: |
+          ls -la dist/*.rmskin 2>/dev/null || { echo "No .rmskin in dist/ at this tag. Add dist/*.rmskin before tagging."; exit 1; }
+
+      - name: Create GitHub Release and upload .rmskin
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.rmskin
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

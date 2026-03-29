@@ -21,7 +21,13 @@ Ez a `dist/` mappába másolja az első talált `.rmskin` fájlt a megadott verz
 
 A **weboldal** „Latest release” gombja ide mutat: a felhasználók innen töltik a `.rmskin`-t, ha feltöltötted a Release-hez.
 
-**GitHub Release automatikusan (API):** hozz létre egy személyes tokent ([GitHub → Settings → Developer settings](https://github.com/settings/tokens)), majd:
+**Automatikus Release (ajánlott):** a repóban van **GitHub Actions** (`.github/workflows/release.yml`). Amikor **felpusholsz egy `v*` taget** (pl. `v1.1`), a GitHub **magától** létrehozza a Release-t és feltölti a **`dist/*.rmskin`** fájlokat. Ehhez **nem kell** személyes token a gépen; Max is „meg tudja csinálni”, ha **taget pushol** a megfelelő commitról (ahol már benne van a `dist/` csomag).
+
+**Fontos:** a tag által mutatott commitban legyen a kívánt `.rmskin` a `dist/` mappában. Ha a `v1.0` tag már korábban kiment workflow nélkül, egy új tag (pl. `v1.0.1`) vagy tag újraírása az utolsó `main` commitra triggereli az első automata release-t.
+
+---
+
+**GitHub Release kézzel (API / token):** hozz létre egy személyes tokent ([GitHub → Settings → Developer settings](https://github.com/settings/tokens)), majd:
 
 ```powershell
 $env:GITHUB_TOKEN = 'ghp_…'   # vagy fine-grained token
