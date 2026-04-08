@@ -2,6 +2,16 @@
 
 A minimalist ICMP-based network connectivity monitor for Rainmeter.
 
+## Canonical naming
+
+- Display / project name: `Ping Status by A-pEx`
+- GitHub repository: `Agent-pEx/Ping-Status-by-A-pEx`
+- Local folder under the collector: `Ping Status by A-pEx/`
+- Default working branch: `dev`
+- Release / stable branch: `main`
+- Rainmeter config name: `Ping Status by A-pEx`
+- Main `.ini` file: `PingStatusByA-pEx.ini`
+
 ## Download
 
 - **GitHub Releases (`.rmskin`):** [Latest release](https://github.com/Agent-pEx/Ping-Status-by-A-pEx/releases/latest)

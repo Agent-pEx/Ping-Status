@@ -4,6 +4,14 @@ Rövid projektlog a `Ping Status by A-pEx` alprojekt fontosabb workflow- és rep
 
 ## 2026-04-07
 
+- Kanonikus névhasználat rögzítve ehhez a repóhoz:
+  - megjelenített projektnév: `Ping Status by A-pEx`
+  - GitHub repó: `Agent-pEx/Ping-Status-by-A-pEx`
+  - lokális mappa a gyűjtőben: `Ping Status by A-pEx/`
+  - alapértelmezett munkaág: `dev`
+  - release / stabil ág: `main`
+  - Rainmeter config név: `Ping Status by A-pEx`
+  - fő `.ini` fájl: `PingStatusByA-pEx.ini`
 - Ellenőrizve: a GitHub repó default branch-e már `dev`.
 - A helyi klón ehhez lett igazítva:
   - a helyi munkakönyvtár átállt a `dev` ágra
