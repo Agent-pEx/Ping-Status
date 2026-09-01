@@ -1,16 +1,16 @@
-Ping Status by A-pEx
+Ping Status
 
-Author: A-pEx
-Version: 1.0
+Author: Kineneta Studio
+Version: 2.0
 License: Creative Commons BY-NC-SA 3.0
 
-If you'd like, buy me a coffee! https://ko-fi.com/agentpex
+If you'd like, buy me a coffee! https://ko-fi.com/kineneta
 
 ===============================================================================
 
 OVERVIEW
 
-Ping Status by A-pEx is a universal ICMP ping monitor Rainmeter skin. 
+Ping Status is a universal ICMP ping monitor Rainmeter skin. 
 Devices are managed by name and IP, and the status is shown with a colored indicator. 
 Settings are edited in a separate panel.
 
@@ -27,8 +27,8 @@ MAIN FEATURES
 
 INSTALLATION
 
-1. Copy the Ping Status by A-pEx folder to the Rainmeter Skins folder
-2. Load the PingStatusByA-pEx.ini skin
+1. Copy the Ping Status folder to the Rainmeter Skins folder
+2. Load the PingStatus.ini skin
 3. The gear icon (SET) opens settings, the question mark opens Help
 
 ===============================================================================
@@ -75,12 +75,12 @@ EXPANSION
 
 For more than 10 devices:
 
-1. Open PingStatusByA-pEx.ini and Settings.ini files
+1. Open PingStatus.ini and Settings.ini files
 2. Change the MaxDevices value (e.g. 10 -> 12)
 3. Open the Devices.inc file and add new lines:
    - Device11_Name=
    - Device11_IP=
-4. In PingStatusByA-pEx.ini copy the last MeasurePing block and rename it to MeasurePing11
+4. In PingStatus.ini copy the last MeasurePing block and rename it to MeasurePing11
 5. Copy the last device meter block and rename to Device11
 6. In Settings.ini copy the last device row and rename to Device11
 
@@ -104,7 +104,7 @@ Full description available in multiple languages in the Readme folder:
 
 CREDITS
 
-- Concept & Design: A-pEx
+- Concept & Design: Kineneta Studio
 - Development Assistant: Created with the support of AI (Cursor) based on the author's instructions and logic.
 
 ===============================================================================
