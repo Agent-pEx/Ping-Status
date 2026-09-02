@@ -1,6 +1,6 @@
 Ping Status
 
-Author: Kineneta Studio
+Author: Fenyvesi István from Kineneta Studio
 Version: 2.0
 License: Creative Commons BY-NC-SA 3.0
 
@@ -104,9 +104,13 @@ Full description available in multiple languages in the Readme folder:
 
 CREDITS
 
-- Concept & Design: Kineneta Studio
-- Development Assistant: Created with the support of AI (Cursor) based on the author's instructions and logic.
+Ping Status is free to use.
 
+Creator: Fenyvesi István.
+Brand: Kineneta Studio.
+Website: https://kineneta.com
+
+Copyright © 2026 Fenyvesi István. All rights reserved.
 ===============================================================================
 
 Happy pinging!

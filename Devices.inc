@@ -1,5 +1,5 @@
 ; Ping Status - Devices
-; Author: Kineneta Studio
+; Author: Fenyvesi István from Kineneta Studio
 ; Version: 2.0
 ; License: Creative Commons BY-NC-SA 3.0
 

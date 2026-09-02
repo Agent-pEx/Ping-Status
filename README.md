@@ -1,4 +1,4 @@
-# Ping-Status
+# Ping Status
 
 A minimalist ICMP-based network connectivity monitor for Rainmeter.
 
@@ -11,20 +11,30 @@ A minimalist ICMP-based network connectivity monitor for Rainmeter.
 - Release / stable branch: `main`
 - Rainmeter config name: `Ping Status`
 - Main `.ini` file: `PingStatus.ini`
+- Author (installer / metadata): `Fenyvesi István from Kineneta Studio`
 
 ## Download
 
-- **GitHub Releases (`.rmskin`):** [Latest release](https://github.com/Agent-pEx/Ping-Status/releases/latest)
-- **Tracked builds:** the `dist/` folder holds the canonical `.rmskin` filename for each tagged version
+- **GitHub Releases (`.rmskin`):** [Latest release](https://github.com/Agent-pEx/Ping-Status/releases/latest) — **v2.0**
+- **Tracked builds:** `dist/Ping-Status-v2.0.rmskin` (canonical filename per tagged version)
 
 ## Install
 
 Install the `.rmskin` with Rainmeter, or copy the skin folder into your Skins directory. Load **`PingStatus.ini`**.
 
+## Current release — v2.0 (Kineneta Studio)
+
+- **Kineneta visual rebrand** — dark surface (`30,30,30`) + teal accent (`79,152,163`)
+- Branding: **Kineneta Studio**, `kineneta.com`, Ko-fi `kineneta` (A-pEx branding removed)
+- Main config renamed to `PingStatus.ini` (load this file after upgrade)
+- Credits / Help impressum in **7 languages** (Kineneta Studio Guide §3.5)
+- Help readme files remain **UTF-16 LE** for correct accented characters in Rainmeter
+
 ## Development workflow
 
 - Development happens on `dev` when that branch exists.
 - `main` is reserved for stable release state and published release flow.
+- Subproject log: `Ping_Status_DEV_LOG.md` (collector root, alongside `Ping_Status/`)
 
 ## Maintainer: new version
 

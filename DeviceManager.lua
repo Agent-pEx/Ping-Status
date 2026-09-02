@@ -1,6 +1,6 @@
 -- Ping Status
 
--- Author: Kineneta Studio
+-- Author: Fenyvesi István from Kineneta Studio
 
 -- Version: 2.0
 
