@@ -60,7 +60,8 @@ Alprojekt napló: `Ping_Status/` · Rainmeter ICMP monitor skin.
 ### 2026-09-02 22:12:00
 
 - **Teszt:** `.rmskin` v2.0 telepítés Rainmeterben — OK (Steven).
-- **Git + release:** commit `dev` (§3.5 credits, encoding, `dist/`, README); `dev` → `main`; tag `v2.0`; GitHub Release.
+- **Git:** commit `dev` `ce4f32d` — §3.5 credits, encoding, `dist/Ping-Status-v2.0.rmskin`, README.
+- **Release:** `dev` → `main` `2d924fb`; tag **`v2.0`**; [GitHub Release](https://github.com/Agent-pEx/Ping-Status/releases/tag/v2.0).
 - **Holnap:** screenshotok + **termék ikon** → `Kineneta_Web/public/assets/ping-status/`; web Released (`ping-status.js`, letöltés, privacy).
 - Blokkoló: —
 
