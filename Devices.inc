@@ -1,13 +1,13 @@
-; Ping Status by A-pEx - Devices
-; Author: A-pEx
-; Version: 1.0
+; Ping Status - Devices
+; Author: Fenyvesi István from Kineneta Studio
+; Version: 2.0
 ; License: Creative Commons BY-NC-SA 3.0
 
 [Variables]
 DeviceCount=3
 
-Device1_Name=p3x-2225
-Device1_IP=p3x-2225.xyz
+Device1_Name=Kineneta
+Device1_IP=kineneta.com
 
 Device2_Name=DeviantArt
 Device2_IP=deviantart.com
