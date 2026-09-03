@@ -65,12 +65,64 @@ Alprojekt napló: `Ping_Status/` · Rainmeter ICMP monitor skin.
 - **Holnap:** screenshotok + **termék ikon** → `Kineneta_Web/public/assets/ping-status/`; web Released (`ping-status.js`, letöltés, privacy).
 - Blokkoló: —
 
+### 2026-09-03 21:47:53
+
+- **Ikon:** 512×512 PNG, fehér keret nélkül, lekerekített lap + átlátszó sarkok — `Kineneta_Web/public/assets/ping-status/icon.png` (még nincs bekötve a kártyába).
+- Következő: screenshotok; utána web Released.
+- Blokkoló: —
+
+### 2026-09-03 21:50:10
+
+- **Kanonikus hely:** termékikon → `Ping_Status/assets/icon.png`. A webes másolat törölve; web Releasedkor másoljuk.
+- Screenshotok (v2.0) is ide: `assets/main.png`, `settings.png`, `help.png`, `desktop.png`.
+- `README.md` — Product assets blokk.
+- Következő: v2.0 screenshotok ebbe a mappába.
+- Blokkoló: —
+
+### 2026-09-03 21:57:45
+
+- **Ikon csiszolás:** törtfehér / tejüveg szél a sarkokban és az oldalakon — szoros squircle maszk, világos perem sötétítve, gyenge alfa levágva. `Ping_Status/assets/icon.png`.
+- Következő: screenshotok.
+- Blokkoló: —
+
+### 2026-09-03 22:08:42
+
+- **Ikon cseréje:** Steven removebg verzió → `Ping_Status/assets/icon.png` (500→**512×512**, tartalom változatlan).
+- Következő: screenshotok.
+- Blokkoló: —
+
+### 2026-09-03 22:12:01
+
+- **UI:** panel háttér sötétebb + ~15% opacítás (`16,16,16,38`) — `PingStatus.ini`, `Settings.ini`, `Help.ini`, `DeviceManager.lua`.
+- Szöveg olvashatóbb: fehér / világosszürke (`255` / `235` / `220`); `HelpReader.lua` nyelvfül színek.
+- Következő: Rainmeter Refresh / teszt; screenshotok.
+- Blokkoló: —
+
+### 2026-09-03 22:16:38
+
+- **Javítás:** panel opacítás — nem 15% kitöltés, hanem a 100%-hoz képest ~**15% átlátszóság** → `16,16,16,217` (~85%). Ugyanazok a fájlok.
+- Következő: Rainmeter Refresh / teszt.
+- Blokkoló: —
+
+### 2026-09-03 22:20:02
+
+- **Settings beírómezők:** `StyleInput` + InputText háttér `38,38,38,200` / `0,0,0,255` → **`72,72,72,235`** (világosabb szürke, elválik a paneltől).
+- Következő: Refresh Settings; ha kell, 1 px keret.
+- Blokkoló: —
+
+### 2026-09-03 22:23:06
+
+- **Git:** commit + push `dev` — ikon `assets/icon.png`, panel/szöveg UI, Settings mezők, README assets blokk.
+- Következő: screenshotok → `assets/`; új `.rmskin` + web Released később.
+- Blokkoló: —
+
 ---
 
 ## Nyitott pontok
 
-- **Holnap:** screenshotok + **termék ikon** → `Kineneta_Web/public/assets/ping-status/`.
-- **Holnap:** web — `ping-status.js` → Released, letöltés gomb, rebrand notice eltávolítás, `privacy.html#ping-status`.
+- Screenshotok → `Ping_Status/assets/` (`main`, `settings`, `help`, `desktop`).
+- Új `.rmskin` a UI változások után; web: másolás + Released.
+- Web: `ping-status.js` → Released, ikon, letöltés, rebrand notice ki, `privacy.html#ping-status`.
 
 ---
 

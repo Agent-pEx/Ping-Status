@@ -356,7 +356,7 @@ function UpdateMainLayout()
 
     SKIN:Bang('!SetVariable', 'PanelH', tostring(panelH))
 
-    set_option('BackgroundPanel', 'Shape', string.format('Rectangle 0,0,%d,%d,8,8 | Fill Color 30,30,30,210 | StrokeWidth 0', panelW, panelH))
+    set_option('BackgroundPanel', 'Shape', string.format('Rectangle 0,0,%d,%d,8,8 | Fill Color 16,16,16,217 | StrokeWidth 0', panelW, panelH))
 
     SKIN:Bang('!UpdateMeter', 'BackgroundPanel')
 
@@ -464,7 +464,7 @@ function UpdateSettingsLayout()
 
     SKIN:Bang('!SetVariable', 'PanelH', tostring(panelH))
 
-    set_option('BackgroundPanel', 'Shape', string.format('Rectangle 0,0,%d,%d,8,8 | Fill Color 30,30,30,210 | StrokeWidth 0', panelW, panelH))
+    set_option('BackgroundPanel', 'Shape', string.format('Rectangle 0,0,%d,%d,8,8 | Fill Color 16,16,16,217 | StrokeWidth 0', panelW, panelH))
 
     SKIN:Bang('!UpdateMeter', 'BackgroundPanel')
 

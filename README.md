@@ -30,6 +30,15 @@ Install the `.rmskin` with Rainmeter, or copy the skin folder into your Skins di
 - Credits / Help impressum in **7 languages** (Kineneta Studio Guide §3.5)
 - Help readme files remain **UTF-16 LE** for correct accented characters in Rainmeter
 
+## Product assets
+
+Canonical store for storefront art (not packed into the `.rmskin`):
+
+- `assets/icon.png` — 512×512 product icon (transparent corners)
+- Screenshots (v2.0, when added): `assets/main.png`, `assets/settings.png`, `assets/help.png`, `assets/desktop.png`
+
+Copy into `Kineneta_Web/public/assets/ping-status/` at web Released time.
+
 ## Development workflow
 
 - Development happens on `dev` when that branch exists.
