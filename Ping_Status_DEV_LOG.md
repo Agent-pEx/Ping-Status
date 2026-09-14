@@ -116,13 +116,25 @@ Alprojekt napló: `Ping_Status/` · Rainmeter ICMP monitor skin.
 - Következő: screenshotok → `assets/`; új `.rmskin` + web Released később.
 - Blokkoló: —
 
+### 2026-09-14 21:30:41
+
+- **Settings Delete:** „Delete” felirat átfedte az IP mezőt → Shape **kuka ikon** (18×16); X=309 (IP után ugyanaz a 8 px rés, mint Name→IP); súgó: „Click the trash icon to remove.”
+- Következő: Rainmeter Refresh / vizuális ellenőrzés; ha a kuka aránya nem stimmel, finomhangolás.
+- Blokkoló: —
+
+### 2026-09-14 21:36:00
+
+- **Csomag:** Desktop `Ping Status_2.0.rmskin` → `dist/Ping-Status-v2.0.rmskin` (Settings kuka UI-val).
+- **Git:** commit + push `dev` — Settings kuka + friss rmskin.
+- Következő: screenshotok → `assets/`; web Released.
+- Blokkoló: —
+
 ---
 
 ## Nyitott pontok
 
 - Screenshotok → `Ping_Status/assets/` (`main`, `settings`, `help`, `desktop`).
-- Új `.rmskin` a UI változások után; web: másolás + Released.
-- Web: `ping-status.js` → Released, ikon, letöltés, rebrand notice ki, `privacy.html#ping-status`.
+- Web: `ping-status.js` → Released, ikon, letöltés, rebrand notice ki, `privacy.html#ping-status` (új `dist/Ping-Status-v2.0.rmskin` kész).
 
 ---
 
