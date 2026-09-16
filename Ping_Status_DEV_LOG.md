@@ -129,12 +129,18 @@ Alprojekt napló: `Ping_Status/` · Rainmeter ICMP monitor skin.
 - Következő: screenshotok → `assets/`; web Released.
 - Blokkoló: —
 
+### 2026-09-16 21:26:30
+
+- Gép: **Kicsi**
+- **Web Released:** `Kineneta_Web` — Ping Status `released`; ikon + screenshotok a `Ping_Status/assets/`-ból; `.rmskin` letöltés + GitHub Release + `privacy.html#ping-status`.
+- Következő: éles FTP/hosting deploy (Steven); Ping Status `dev`/`main` napló sync, ha kell.
+- Blokkoló: —
+
 ---
 
 ## Nyitott pontok
 
-- Screenshotok → `Ping_Status/assets/` (`main`, `settings`, `help`, `desktop`).
-- Web: `ping-status.js` → Released, ikon, letöltés, rebrand notice ki, `privacy.html#ping-status` (új `dist/Ping-Status-v2.0.rmskin` kész).
+- Éles deploy: Ping Status Released a `kineneta.com`-on.
 
 ---
 
