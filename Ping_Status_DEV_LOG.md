@@ -136,20 +136,38 @@ Alprojekt napló: `Ping_Status/` · Rainmeter ICMP monitor skin.
 - Következő: éles FTP/hosting deploy (Steven); Ping Status `dev`/`main` napló sync, ha kell.
 - Blokkoló: —
 
+### 2026-11-09 21:18:00 — Helyi dirty tisztázás (sync)
+
+- Gép: **Kicsi** (aktuális munkakörnyezet)
+- `dev` = `origin/dev` (nincs lemaradás / előzés).
+- **Helyi-only (nem sync-hiba):**
+  - `Readme/README_*.txt` (7 nyelv) — módosított, UTF-16; nem commitolva, amíg Steven nem dönt (tartalom vs. encoding).
+  - Gyökér `Ping Status_2.0.rmskin` — **untracked duplikátum**; kanonikus csomag: `dist/Ping-Status-v2.0.rmskin` (ha van) / web letöltés.
+- Döntés később: commit+push **vagy** restore + rmskin törlés/ignore.
+- Blokkoló: —
+
+### 2026-11-09 21:23:17 — Dirty döntés: eldobás
+
+- Gép: **Kicsi**
+- **README (7):** szöveg **azonos** a `HEAD`-del; csak sortörés (UTF-16 `\r\r\n` → `\r\n`). Sept 16 Released / packager mellékhatás — **nem** tartalmi munka. `git restore` → tiszta.
+- **Gyökér `Ping Status_2.0.rmskin`:** régi Skin Packager dump (2026-09-03, 28190 B); kanonikus: `dist/Ping-Status-v2.0.rmskin` (2026-09-16, 28382 B). **Törölve.**
+- Következő: napló feltöltés, ha Steven kéri; éles web Released ellenőrizendő.
+- Blokkoló: —
+
 ---
 
 ## Nyitott pontok
 
-- Éles deploy: Ping Status Released a `kineneta.com`-on.
+- Éles `kineneta.com` Released ellenőrizendő (web oldal 2026-09-16 óta kész; FTP/hosting Stevennél).
 
 ---
 
-## Handoff — 2026-09-02 22:12:00
+## Handoff — 2026-11-09 21:23:17
 
-- **Állapot:** v2.0 kész, telepítés tesztelve; git + GitHub Release `v2.0` ebben a sessionben.
-- **Sync:** `git pull` a `Ping_Status/` repóban (`dev` + `main`); gyűjtő `main` ha napló/README frissült.
-- **Resume with:** screenshotok + ikon; majd Kineneta Web Released frissítés.
-- **Lokális-only:** gyökér `Ping Status_2.0.rmskin` (nem commitolt duplikátum; kanonikus: `dist/Ping-Status-v2.0.rmskin`).
+- **Állapot:** v2.0 `dev` = `origin/dev`, termékfájlok **tiszták**. Csak `Ping_Status_DEV_LOG.md` dirty (e döntés + handoff).
+- **Sync:** `git pull` a `Ping_Status/` `dev` — nincs mit húzni.
+- **Resume with:** más projekt; vagy napló commit/push kérésre.
+- **Lokális-only:** `Ping_Status_DEV_LOG.md` (amíg nincs feltöltés).
 
 ---
 
